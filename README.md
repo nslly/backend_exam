@@ -6,8 +6,11 @@ Follow these steps to run the Laravel backend:
 
 1. **Clone the Repository**:
 
+    My Back end repository
+   
    git clone https://github.com/nslly/backend_exam.git
    
+
    cd backend_exam
 
 
@@ -27,8 +30,38 @@ Follow these steps to run the Laravel backend:
    
    php artisan migrate --seed
 
-6. npm install
-7. php artisan serve
+6. Install Node Dependencies:
+
+npm install
+
+7. Create Symbolic Link for Storage:
+
+php artisan storage:link
+
+8. Serve the Application:
+
+ php artisan serve
+
+
+After you copy the BACK END, you can set up the FRONT END Vue project as follows:
+
+
+1. **Clone the Repository**:
+   
+   git clone https://github.com/nslly/frontend_exam.git
+
+   cd frontend_exam
+
+2. Install Dependencies: Make sure you have Node.js and npm installed. Run:
+
+npm install
+
+3. Run the Development Server: Start the development server with:
+
+npm run dev
+
+
+
 
   
 
